@@ -1,0 +1,57 @@
+    body{
+	padding: 0px;
+    margin: 50px;
+            }
+      a{
+      	text-decoration: none;
+      	font-size: 18px;
+
+      }   
+      .menu > ul{
+      	width: 100%;
+      	margin: auto;
+      	display: flex;
+      	float: left;
+      	
+      }
+      .menu > ul > li{
+      	display: flex;
+      	margin-left: 50px;
+      }
+      .menu > ul > li> ul {
+      	background: #e0e0e0;
+
+
+
+      }
+      ul.mm-subopen{
+      	width: 250px;
+      	min-height: 100px;
+      	display: none;
+      	position: absolute;/*cau lệnh con nằm trong mẹ*/
+      }
+      ul.mm-subopen li a{
+      	display: block;
+      	text-decoration: none;/*tách gạch chân */
+      	line-height: 30px;
+      }
+       ul.mm-subopen li a:hover{
+       }
+     menu{
+     	background: #e0e0e0;
+
+     }
+     li{
+     	list-style-type: none;
+     }
+
+
+
+      
+
+    .giaohang{
+      width: 70%;
+      display: flex;
+    /*  justify-content: center;*/
+    }
+   
